@@ -1,7 +1,9 @@
-中文
-第一个重做的CS2特殊回合插件，基于CounterStrikeSharp和Metamod开发的CS2 Linux服务端插件
-原项目地址为：https://github.com/DeadSwimek/cs2-specialrounds
-支持的回合有
+#中文
+#第一个重做的CS2特殊回合插件，基于CounterStrikeSharp和Metamod开发的CS2 Linux服务端插件
+#原项目地址为：https://github.com/DeadSwimek/cs2-specialrounds
+
+### 支持的回合有
+```
     private string GetRoundName(int round_id)
     {
         return round_id switch
@@ -26,4 +28,4 @@
             _ => "Default round(正常回合)"//默认回合
         };
     }
-    
+```
